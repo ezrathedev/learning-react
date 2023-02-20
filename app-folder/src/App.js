@@ -16,7 +16,11 @@ function App() {
       {/* nav^ */}
       <h1>My Awesome Blog</h1>
       <div id="page-body">
-      <HomePage />
+{/* this is the page body  */}
+      <div id="page-body">
+        <HomePage />
+        </div>
+
       <div className='about'>
         <AboutPage />
       </div>
